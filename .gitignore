@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+.venv
+venv/
+
+# Output files (don't commit generated palettes or configs)
+palette.html
+palette.svg
+*-output.json
+
+# Personal brand configs (keep your own brand data private)
+# Remove this line if you WANT to commit your brand config
+my-brand.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
